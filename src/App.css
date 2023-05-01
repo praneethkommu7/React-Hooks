@@ -1,0 +1,51 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #323435;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  font-family: "Raleway", sans-serif;
+}
+.App {
+  text-align: center;
+}
+.App-link {
+  color: #8be3fb;
+}
+div {
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+}
+.btn {
+  margin: auto;
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  font-size: 30px;
+  background-color: #3280a1;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.btn:hover {
+  background-color: #136ca7;
+}
+p {
+  font-size: 20px;
+  font-weight: normal;
+}
