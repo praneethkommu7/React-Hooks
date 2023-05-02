@@ -7,11 +7,12 @@ import GitHubProfileFetch from "./components/useEffect/GitHubProfile/GitHubProfi
 import UseState1 from "./components/useState/UseState1";
 import UseState2 from "./components/useState/UseState2";
 import UseState3 from "./components/useState/UseState3";
+import LoginForm from "./components/useState/LoginForm";
 
 const App = () => {
   return (
     <div>
-      <UseEffect1 />
+      <LoginForm />
     </div>
   );
 };

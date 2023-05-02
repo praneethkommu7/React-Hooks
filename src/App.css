@@ -1,3 +1,5 @@
+/* useState and useEffect */
+
 body {
   min-height: 100vh;
   width: 100vw;
@@ -11,8 +13,6 @@ body {
 }
 
 div {
-  font-size: 10px;
-  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@ h1 {
 }
 .btn {
   margin: auto;
-  margin-top: 2rem;
+  margin: 2rem;
   border: none;
   outline: none;
   padding: 1rem 2rem;
@@ -51,17 +51,6 @@ p {
   text-transform: capitalize;
   font-weight: normal;
   padding-top: 10px;
-}
-input {
-  margin: 5rem 1rem;
-  border: none;
-  outline: none;
-  padding: 1rem 2rem;
-  font-size: 20px;
-  background-color: #3280a1;
-  color: aliceblue;
-  cursor: pointer;
-  border-radius: 2rem;
 }
 
 .inline {
@@ -87,4 +76,37 @@ input {
 
 h2 {
   font-size: 50px;
+}
+
+label {
+  font-size: 20px;
+}
+input {
+  padding: 4px 8px;
+  margin-bottom: 20px;
+}
+.submitButton {
+  font-size: 20px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: rgb(218, 92, 61);
+  color: #fff;
+}
+form {
+  padding: 3rem;
+  border-radius: 20px;
+  background-color: rgb(93, 125, 223);
+  margin-bottom: 20px;
+}
+.showDetails {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5rem;
+}
+.h6 {
+  font-size: 2rem;
 }
