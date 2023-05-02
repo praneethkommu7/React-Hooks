@@ -20,13 +20,17 @@ const UseEffect1 = () => {
   };
 
   return (
-    <div>
+    <>
       <h2>{count}</h2>
       <div className="inline">
-        <input type="button" onClick={countIncrement} value="Increment" />
-        <input type="button" onClick={countDecrement} value="Decrement" />
+        <button className="btn" onClick={countIncrement}>
+          Increment
+        </button>
+        <button className="btn" onClick={countDecrement}>
+          Decrement
+        </button>
       </div>
-    </div>
+    </>
   );
 };
 

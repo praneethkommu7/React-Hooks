@@ -17,9 +17,15 @@ const UseState2 = () => {
     <>
       <h2 className="counter">{count}</h2>
       <div className="inline">
-        <input type="button" onClick={onIncrement} value="Increment" />
-        <input type="button" onClick={reset} value="Reset" />
-        <input type="button" onClick={onDecrement} value="Decrement" />
+        <button className="btn" onClick={onIncrement}>
+          Increment
+        </button>
+        <button className="btn" onClick={reset}>
+          Reset
+        </button>
+        <button className="btn" onClick={onDecrement}>
+          Decrement
+        </button>
       </div>
     </>
   );

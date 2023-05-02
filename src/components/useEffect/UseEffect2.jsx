@@ -17,10 +17,10 @@ const UseEffect2 = () => {
   }, [widthCount]);
 
   return (
-    <div>
+    <>
       <p>The Actual size of Window is:</p>
       <h2>{widthCount}</h2>
-    </div>
+    </>
   );
 };
 

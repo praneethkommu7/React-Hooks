@@ -51,7 +51,9 @@ const UseState3 = () => {
           </div>
         );
       })}
-      <input type="button" value="Clear All" onClick={clearAll} />
+      <button className="btn" onClick={clearAll}>
+        Clear All
+      </button>
     </div>
   );
 };

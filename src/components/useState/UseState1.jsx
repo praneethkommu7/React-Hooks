@@ -10,12 +10,12 @@ const UseState1 = () => {
   };
 
   return (
-    <div>
+    <>
       <h2>{name}</h2>
       <button className="btn" onClick={changeName}>
-        Toggle
+        Lover
       </button>
-    </div>
+    </>
   );
 };
 
