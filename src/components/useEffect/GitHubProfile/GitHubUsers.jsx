@@ -1,20 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-const GitHubProfileFetch = () => {
-  const [users, setUsers] = useState([]);
-
-  const getUsers = async () => {
-    const response = await fetch("https://api.github.com/users");
-    // console.log(response);
-    // const data = await response.json();
-    // console.log(data);
-    setUsers(await response.json());
-  };
-
-  useEffect(() => {
-    getUsers();
-  }, []);
-
+const GitHubUsers = ({ users }) => {
   return (
     <>
       <h2>List of GitHub Users</h2>
@@ -63,4 +49,4 @@ const GitHubProfileFetch = () => {
   );
 };
 
-export default GitHubProfileFetch;
+export default GitHubUsers;

@@ -3,7 +3,7 @@ import React from "react";
 import "./GitHubApp.css"; // Enable only for GitHubProfileFetch
 import UseEffect1 from "./components/useEffect/UseEffect1";
 import UseEffect2 from "./components/useEffect/UseEffect2";
-import GitHubProfileFetch from "./components/useEffect/GitHubProfileFetch";
+import GitHubProfileFetch from "./components/useEffect/GitHubProfile/GitHubProfileFetch";
 
 const App = () => {
   return (
