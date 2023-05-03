@@ -26,6 +26,7 @@ const LoginForm = () => {
 
   return (
     <>
+      <h4 style={{ fontSize: "30px", fontFamily: "fantasy" }}>Login Form</h4>
       <form action="" onSubmit={submitForm}>
         <div>
           <label htmlFor="email">Email</label>
