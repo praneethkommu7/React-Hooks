@@ -1,9 +1,13 @@
 import React from "react";
+import { FcApproval } from "react-icons/fc";
+import { FaGithub } from "react-icons/fa";
 
 const GitHubUsers = ({ users }) => {
   return (
     <>
-      <h2>List of GitHub Users</h2>
+      <h2>
+        List of GitHub Users <FaGithub />
+      </h2>
       <div className="container-fluid mt-5">
         <div className="row text-center">
           {users.map((val) => {
@@ -21,7 +25,9 @@ const GitHubUsers = ({ users }) => {
                       />
                     </div>
                     <div className="ml-3 w-100">
-                      <h4 className="mb-0 mt-0 textLeft">{login}</h4>
+                      <h4 className="mb-0 mt-0 textLeft">
+                        {login} <FcApproval />
+                      </h4>
                       <span className="text-left">{type}</span>
                       <div className="p-2 mt-2 bg-primary d-flex justify-content-between rounded text-white stats">
                         <div className="d-flex flex-column">

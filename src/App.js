@@ -9,11 +9,15 @@ import UseState2 from "./components/useState/UseState2";
 import UseState3 from "./components/useState/UseState3";
 import LoginForm from "./components/useState/LoginForm";
 import RegistrationForm from "./components/useState/RegistrationForm";
+import UnControlledForm from "./components/useRef/UnControlledForm";
+import UseReducer1 from "./components/useReducer/UseReducer1";
+import UseContext from "./components/useContext/UseContext";
+import Test from "./components/CustomHooks/Test";
 
 const App = () => {
   return (
     <div>
-      <RegistrationForm />
+      <Test />
     </div>
   );
 };
